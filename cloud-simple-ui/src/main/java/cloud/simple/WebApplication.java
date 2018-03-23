@@ -24,6 +24,7 @@ import feign.Request;
 
 @SpringBootApplication
 @EnableEurekaClient
+//表示启用断路器，断路器依赖于服务注册和发现。
 @EnableHystrix
 public class WebApplication {
 
